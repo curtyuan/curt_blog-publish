@@ -1,0 +1,25 @@
+<!doctype html><html xmlns=http://www.w2.org/1999/xhtml><html lang=en><head><meta name=generator content="Hugo 0.165.0"><meta charset=utf-8><title></title><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content><meta property="og:title" content><meta property="og:type" content="website"><meta property="og:url" content="https://0xo3o.com/terminal/"><link rel=sitemap type=application/xml title=Sitemap href><link rel=canonical href=https://0xo3o.com/terminal/><link rel=apple-touch-icon sizes=180x180 href=/terminal/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/terminal/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/terminal/favicon-16x16.png><link rel=manifest href=/terminal/site.webmanifest><link rel=mask-icon href=/terminal/safari-pinned-tab.svg color><link rel="shortcut icon" href=/terminal/favicon.ico><meta name=msapplication-TileColor content><script src=https://cdn.jsdelivr.net/npm/jquery></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.45.2/js/jquery.terminal.min.js></script><script src=https://cdn.jsdelivr.net/npm/jquery.terminal/js/less.min.js></script><script src=https://unpkg.com/jquery.terminal/js/autocomplete_menu.js></script><link href=https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.42.0/css/jquery.terminal.min.css rel=stylesheet><style>body{width:100%;font-size:18px}</style></head><body><script>jQuery(document).ready(function(e){var s,o,a,r,c,d,u,h,m,f,g,v,b,n=!1,y=[],j=["whois","source","all"],t={help:"shows help",less:{description:"Use less as output method for commands",args:[...j]},whois:"list basic details",source:"shows details about template powering this website",all:"Show all details about me"};function O(e){var t=Math.round(e/10),n=Array(t+1).join("&#9611;"),s=Array(11-t).join("&#9617;");return n+s}function l(e,t){return e+" ".repeat(t-e.length)}function p(){let n=Math.max(...Object.keys(t).map(e=>e.length)),e="";for(let s in t)t.hasOwnProperty(s)&&(commandValue=t[s],description=typeof commandValue=="string"?commandValue:commandValue.description,e+=` ${l(s,n)}	${description}
+`);return e}d=`
+[[b;white;]usage:]
+`+`
+ <command>`.padEnd(17)+`- execute the command
+`+" less <command>".padEnd(16)+`- use less to display the output
+
+
+[[b;white;]Available commands:]
+`+p(),s=[];function w(){var t=!1;let e={};socialText=[];for(let n in e)if(e.hasOwnProperty(n))if(t)socialText.push(e[n]);else{let t=Math.max(...Object.keys(e).map(e=>e.length));socialText.push(`${l(n,t)}	${e[n]}`)}return socialText}function _(t){e.ajax({url:"posts/",type:"GET",success:function(e){t.echo(e,{raw:!0})},error:function(){t.echo("Error: Could not load posts data")}})}o=[],h=[],m=[],f=[],u=[],g=[],v=[],b=[],c=[],r=`        _______            
+       |       |           
+       |       |           
+       |_______|_______    
+               |       |   
+               |       |   
+ ______________|_______|   
+|      |       |       |   
+|      |       |       |   
+|______|_______|_______|   
+[[;red;]May the source be with you]
+[[;grey;]https://github.com/coolapso/hugo-theme-terminalcv
+`,a=[s],e("body").terminal(function(t,l){var m=!1;function u(e,t){var n,s,o=t||{};if(m)o.raw?(n=e[0],s=l.export_view(),l.clear(),l.echo(n,{raw:!0}),l.push(function(){},{prompt:":",keydown:function(e){if(e.which===81||e.which===113)return l.pop(),l.import_view(s),!1}})):l.less(e);else for(i=0;i<e.length;i+=1)l.echo(e[i],t||{})}function f(t,n){url="/posts/"+n+"/",e.ajax({url,type:"GET",success:function(e){u([e],{raw:!0})},error:function(){t.echo("Error: Could not load post "+n)}})}function h(e,t){var s,o=Math.round(t*e/100),i="",n="";for(s=o;s--;)n+="=";n.length>0&&(n=n.replace(/=$/,">"));for(s=t-o;s--;)i+=" ";return"["+n+i+"] "+e+"%"}function p(){var e=0,t=30;prompt=l.get_prompt(),string=h(0,t),l.set_prompt(h),n=!0,function s(){string=h(e++,t),l.set_prompt(string),e<100?timer=setTimeout(s,10):(l.echo(h(e,t)+" [[b;green;]OK]").set_prompt(prompt),n=!1)}()}if(cmdParts=t.split(/[ ]+/),cmdParts[0]=="less"){m=!0,cmdParts.shift();let e=cmdParts[0];if(!e){l.echo("less: missing argument");return}if(y.includes(e)){f(l,e);return}}switch(cmdParts[0]){case"whois":u(s);break;case"certifications":u(o);break;case"misc":u(c);break;case"help":case"?":l.echo(d);break;case"all":u(a.flat(1));break;case":(){:|:&};:":l.echo("nice try");break;case"source":l.echo(r);break;case"exit":l.echo("Terminating session, thanks for visiting"),p(),setTimeout(function(){l.pause(),l.clear(),l.echo("")},2e3);break;case"":break;default:l.echo(`
+unknown command: `+t+`
+please type 'help' or '?' for a list of available commands
+`)}},{greetings:"[[b;white;]]",prompt:"",keydown:function(e,t){if(n)return e.which==68&&e.ctrlKey&&(clearTimeout(timer),n=!1,t.echo(string+" [[b;red;]FAIL]").set_prompt(prompt)),!1},autocompleteMenu:!0,completion:Object.keys(t)})})</script></body></html>

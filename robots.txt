@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://0xo3o.com/sitemap.xml
