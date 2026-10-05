@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Workbench on Yuan</title><link>https://0xo3o.com/blog/categories/workbench/</link><description>Recent content in Workbench on Yuan</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 22 Aug 2026 20:19:59 +0800</lastBuildDate><atom:link href="https://0xo3o.com/blog/categories/workbench/index.xml" rel="self" type="application/rss+xml"/><item><title>Publish Draft Test</title><link>https://0xo3o.com/blog/posts/workbench/publish-draft-test/</link><pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate><guid>https://0xo3o.com/blog/posts/workbench/publish-draft-test/</guid><description>&lt;h1 id="publish-draft-test"&gt;Publish Draft Test&lt;/h1&gt;
-&lt;p&gt;This is a manual test draft for the Obsidian-to-Hugo publish script.&lt;/p&gt;
-&lt;p&gt;Use it by placing this file in one publishable category as:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;blog_Workbench/publish-draft-test/publish-draft-test.md
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;blog_Workbench/publish-draft-test/attachments/cover.png
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;blog_Workbench/publish-draft-test/attachments/diagram.webp
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;blog_Workbench/publish-draft-test/attachments/screenshot.jpg
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then add this under &lt;code&gt;# publish&lt;/code&gt; in &lt;code&gt;publish.md&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[[blog_Workbench/publish-draft-test/publish-draft-test.md]]
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="local-images"&gt;Local Images&lt;/h2&gt;
-&lt;p&gt;Wiki image without alt:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="cover" loading="lazy" src="attachments/cover.png"&gt;&lt;/p&gt;
-&lt;p&gt;Wiki image with alt:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="System diagram" loading="lazy" src="attachments/diagram.webp"&gt;&lt;/p&gt;
-&lt;p&gt;Wiki image with a numeric width hint. The script should drop the width and log a
-warning:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="screenshot" loading="lazy" src="attachments/screenshot.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;Markdown image without &lt;code&gt;attachments/&lt;/code&gt; prefix:&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Workbench on Yuan</title><link>https://0xo3o.com/blog/categories/workbench/</link><description>Recent content in Workbench on Yuan</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://0xo3o.com/blog/categories/workbench/index.xml" rel="self" type="application/rss+xml"/><item><title>Win Steg GUI｜Windows C++ 研究原型</title><link>https://0xo3o.com/blog/posts/win-steg-gui/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://0xo3o.com/blog/posts/win-steg-gui/</guid><description>從 AV 與端點防護的演練背景出發，整理 Windows C++ 影像藏密研究原型的構思、實作與驗證結果。</description></item></channel></rss>
